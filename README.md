@@ -70,8 +70,8 @@ Before running this application, make sure you have the following installed:
 
 3. **Access the application**
    - Frontend: http://localhost:3000
-   - Backend API: http://localhost:3001
-   - API Documentation: http://localhost:3001/api/docs
+   - Backend API: http://localhost:3007
+   - API Documentation: http://localhost:3007/api/docs
 
 ### Option 2: Manual Setup
 
@@ -160,8 +160,8 @@ REDIS_PORT=6379
 
 ```env
 # API Configuration
-NEXT_PUBLIC_API_URL=http://localhost:3001/api
-NEXT_PUBLIC_BACKEND_URL=http://localhost:3001
+NEXT_PUBLIC_API_URL=http://localhost:3007/api
+NEXT_PUBLIC_BACKEND_URL=http://localhost:3007
 
 # Application Configuration
 NEXT_PUBLIC_APP_NAME=University LMS
@@ -202,7 +202,7 @@ The system comes with pre-configured users for testing:
 ## 📚 API Documentation
 
 Once the backend is running, you can access the interactive API documentation at:
-- **Swagger UI**: http://localhost:3001/api/docs
+- **Swagger UI**: http://localhost:3007/api/docs
 
 ### Key API Endpoints
 
