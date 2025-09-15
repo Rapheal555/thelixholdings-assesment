@@ -144,7 +144,7 @@ JWT_SECRET=your-super-secret-jwt-key
 JWT_EXPIRES_IN=24h
 
 # Application Configuration
-PORT=3001
+PORT=3007
 NODE_ENV=development
 FRONTEND_URL=http://localhost:3000
 
@@ -302,7 +302,7 @@ npm run test:watch    # Watch mode
    - Verify network connectivity
 
 2. **Port Conflicts**
-   - Check if ports 3000, 3001, 5432, 6379 are available
+   - Check if ports 3000, 3007, 5432, 6379 are available
    - Modify port configurations in docker-compose.yml if needed
 
 3. **File Upload Issues**
