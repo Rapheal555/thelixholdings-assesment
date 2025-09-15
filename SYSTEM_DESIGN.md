@@ -13,7 +13,7 @@ This is a comprehensive Learning Management System (LMS) built with modern web t
 │                 │    │                 │    │                 │
 │   Frontend      │    │   Backend       │    │   Database      │
 │   (Next.js)     │◄──►│   (NestJS)      │◄──►│   (PostgreSQL)  │
-│   Port: 3000    │    │   Port: 3001    │    │   Port: 5432    │
+│   Port: 3000    │    │   Port: 3007    │    │   Port: 5432    │
 │                 │    │                 │    │                 │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
                               │
